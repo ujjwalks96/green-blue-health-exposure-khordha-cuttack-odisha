@@ -3,9 +3,20 @@
 **A Multi-Temporal Geospatial Assessment of Health-Supportive Spatial Environments**
 **Khordha and Cuttack Districts, Odisha, India**
 
-**Author:** Ujjwal Kumar Swain
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/GeoPandas-0.14%2B-139C5A?style=for-the-badge&logo=geopandas&logoColor=white" alt="GeoPandas"/>
+  <img src="https://img.shields.io/badge/Folium-0.15%2B-77B829?style=for-the-badge&logo=folium&logoColor=white" alt="Folium"/>
+  <img src="https://img.shields.io/badge/PySAL-4.9%2B-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="PySAL"/>
+  <img src="https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/SHAP-0.44%2B-FF6F00?style=for-the-badge&logo=python&logoColor=white" alt="SHAP"/>
+  <img src="https://img.shields.io/badge/H3-4.x-1E88E5?style=for-the-badge&logo=uber&logoColor=white" alt="H3"/>
+  <img src="https://img.shields.io/badge/Google%20Colab-Ready-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" alt="Colab"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"/>
+</p>
+
+**Author:** Ujjwal Kumar Swain; 
 **Contact:** ujjwalks.iirs@gmail.com
-**Affiliation:** M.Sc. Geoinformation Science and Earth Observation, University of Twente / IIRS-ISRO Joint Education Programme
 
 ---
 
