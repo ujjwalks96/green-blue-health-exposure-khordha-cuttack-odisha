@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/GeoPandas-0.14%2B-139C5A?style=for-the-badge&logo=geopandas&logoColor=white" alt="GeoPandas"/>
+  <img src="https://img.shields.io/badge/GeoPandas-1.0%2B-139C5A?style=for-the-badge&logo=geopandas&logoColor=white" alt="GeoPandas"/>
   <img src="https://img.shields.io/badge/Folium-0.15%2B-77B829?style=for-the-badge&logo=folium&logoColor=white" alt="Folium"/>
   <img src="https://img.shields.io/badge/PySAL-4.9%2B-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="PySAL"/>
   <img src="https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
@@ -19,22 +19,45 @@
 **Contact:** ujjwalks.iirs@gmail.com
 
 ---
+## Table of Contents
 
-## Explore the Interactive Dashboard
+| # | Section | Description |
+|---|---------|-------------|
+| 1 | [Explore the Interactive Dashboard](#01-explore-the-interactive-dashboard) | Live web dashboard with togglable analytical layers |
+| 2 | [About This Project](#02-about-this-project) | Project overview and study area context |
+| 3 | [Rationale](#03-rationale) | Why environmental health, urbanization, and spatial equity matter |
+| 4 | [Aim and Objectives](#04-aim-and-objectives) | Measurable goals of the analysis |
+| 5 | [Methodology](#05-methodology) | Step-by-step analytical pipeline |
+| 6 | [Technology Stack](#06-technology-stack) | Tools and libraries used |
+| 7 | [Repository Structure](#07-repository-structure) | Folder and file organization |
+| 8 | [How to Run](#08-how-to-run) | Setup instructions for Colab and local environments |
+| 9 | [Outputs and Figures](#09-outputs-and-figures) | Description of all generated outputs |
+| 10 | [Key Findings](#10-key-findings) | Major analytical insights with evidence |
+| 11 | [Policy Implications](#11-policy-implications) | Connections to urban planning and governance |
+| 12 | [Limitations and Future Work](#12-limitations-and-future-work) | Data gaps, assumptions, and next steps |
+| 13 | [References](#13-references) | Academic and data source citations |
+| 14 | [Citation](#14-citation) | How to cite this project |
+| 15 | [License](#15-license) | MIT License |
+
+---
+
+## 01. Explore the Interactive Dashboard
 
 The full analytical output is available as a live, interactive web dashboard. Toggle between EHEI layers, LISA clusters, Gi* hotspots, environmental typologies, vegetation and built-up fractions, and temporal change surfaces. No installation or GIS software required.
 
 ### [>>> Open the Environmental Health Dashboard <<<](https://ujjwalks96.github.io/green-blue-health-exposure-khordha-cuttack-odisha/output/dashboard.html)
+### *(The Interactive Health dashbaord is a Large file, ~89 MB. Please allow 2 to 4 minutes for loading).*
+### The dashboard supports three basemaps (satellite imagery, light cartographic, and dark mode) with togglable analytical layers and cell-level tooltips showing EHEI scores, LULC fractions, population estimates, and cluster classifications.
 
-The dashboard supports three basemaps (satellite imagery, light cartographic, and dark mode) with togglable analytical layers and cell-level tooltips showing EHEI scores, LULC fractions, population estimates, and cluster classifications.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujjwalks96/green-blue-health-exposure-khordha-cuttack-odisha/blob/main/UGBEHEI_Khordha_Cuttack_Pipeline.ipynb) 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ujjwalks96/green-blue-health-exposure-khordha-cuttack-odisha/blob/main/UGBEHEI_Khordha_Cuttack_Pipeline.ipynb)
+
 
 ---
 
-## About This Project
+## 02. About This Project
 
-Khordha and Cuttack districts form the administrative and economic core of coastal Odisha. Khordha contains Bhubaneswar, one of eastern India's fastest-growing cities, while Cuttack anchors the northern half of the twin-city corridor along the Mahanadi river system. Between 2016 and 2024, this region has experienced rapid and uneven urbanization: built-up surfaces have expanded into agricultural and vegetated land, waterbodies face seasonal stress, and the urban heat island has intensified.
+Khordha and Cuttack districts form the administrative and economic core of coastal Odisha, India. Khordha contains Bhubaneswar, one of eastern India's fastest-growing cities, while Cuttack anchors the northern half of the twin-city corridor along the Mahanadi river system. Between 2016 and 2024, this region has experienced rapid and uneven urbanization: built-up surfaces have expanded into agricultural and vegetated land, waterbodies face seasonal stress, and the urban heat island has intensified.
 
 This project constructs a **Composite Environmental Health Exposure Index (EHEI)** from five environmental exposure layers, computed across a 500m hexagonal grid for both 2016 and 2024. The full analytical pipeline spans satellite-based land cover classification, environmental exposure modelling, exploratory spatial data analysis, spatial econometric regression, interpretable machine learning, urban typology classification, and scenario-based intervention modelling.
 
@@ -48,7 +71,7 @@ The pipeline is implemented as a single end-to-end Jupyter Notebook designed for
 
 ---
 
-## Rationale
+## 03. Rationale
 
 Urban expansion across Indian cities is outpacing the provision of green and blue infrastructure. The consequences are measurable and accelerating: intensifying urban heat islands, declining per-capita green space, degraded air quality, and growing exposure to industrial and noise pollution. These environmental stressors do not distribute evenly across the urban landscape. Low-income peri-urban communities frequently bear the highest exposure burden while possessing the least adaptive capacity.
 
@@ -67,7 +90,7 @@ The work is relevant to India's Smart Cities Mission, AMRUT urban infrastructure
 
 ---
 
-## Aim and Objectives
+## 04. Aim and Objectives
 
 **Aim:**
 To develop a reproducible, multi-temporal geospatial framework for assessing and mapping environmental health exposure across the Khordha-Cuttack urban corridor, and to evaluate the potential impact of targeted green-blue infrastructure interventions on population-level health outcomes.
@@ -92,7 +115,7 @@ To develop a reproducible, multi-temporal geospatial framework for assessing and
 
 ---
 
-## Methodology
+## 05. Methodology
 
 ### Study Area and Spatial Framework
 
@@ -216,7 +239,7 @@ Scenario C delivers 33 times more population benefit than Scenario A for approxi
 
 ---
 
-## Technology Stack
+## 06. Technology Stack
 
 | Category | Tools |
 |----------|-------|
@@ -231,7 +254,7 @@ Scenario C delivers 33 times more population benefit than Scenario A for approxi
 
 ---
 
-## Repository Structure
+## 07. Repository Structure
 
 ```
 green-blue-health-exposure-khordha-cuttack-odisha/
@@ -266,7 +289,7 @@ green-blue-health-exposure-khordha-cuttack-odisha/
 
 ---
 
-## How to Run
+## 08. How to Run
 
 ### Option 1: Google Colab (Recommended)
 
@@ -307,7 +330,7 @@ Requires Python 3.9+ and a registered GEE account.
 
 ---
 
-## Outputs and Figures
+## 09. Outputs and Figures
 
 ### Spatial Outputs
 
@@ -340,7 +363,7 @@ Requires Python 3.9+ and a registered GEE account.
 
 ---
 
-## Key Findings
+## 10. Key Findings
 
 ### Finding 1: Environmental health follows a steep urban-rural gradient
 
@@ -390,7 +413,7 @@ The K-Means clustering identifies four typologies that are not just statisticall
 
 ---
 
-## Policy Implications
+## 11. Policy Implications
 
 **For Urban Planning Departments:**
 The EHEI map and LISA cluster analysis provide neighbourhood-level evidence for prioritizing green infrastructure investment. The 8,617 Low-Low cluster cells represent the highest-priority intervention targets. The typology classification enables differentiated policy: dense urban cores need vertical greening, cool roofs, and permeable surfaces, while peri-urban transition zones need land use controls that preserve existing vegetation before it is converted. The GeoPackage output can be loaded directly into municipal GIS platforms for spatial planning workflows.
@@ -406,7 +429,7 @@ The scenario comparison provides cost-effectiveness evidence suitable for budget
 
 ---
 
-## Limitations and Future Work
+## 12. Limitations and Future Work
 
 ### Current Limitations
 
@@ -429,21 +452,29 @@ The scenario comparison provides cost-effectiveness evidence suitable for budget
 
 ---
 
-## References
+## 13. References
 
-1. Zanaga, D. et al. (2022). ESA WorldCover 10 m 2021 v200. Zenodo. https://doi.org/10.5281/zenodo.7254221
-2. World Health Organization (2016). Urban Green Spaces and Health: A Review of Evidence. WHO Regional Office for Europe.
-3. Lundberg, S.M. and Lee, S.I. (2017). A Unified Approach to Interpreting Model Predictions. Advances in Neural Information Processing Systems, 30. https://doi.org/10.48550/arXiv.1705.07874
-4. Rey, S.J. and Anselin, L. (2010). PySAL: A Python Library of Spatial Analytical Methods. In Fischer, M. and Getis, A. (Eds.), Handbook of Applied Spatial Analysis (pp. 175-193). Springer. https://doi.org/10.1007/978-3-642-03647-7_11
-5. European Space Agency (2015). Sentinel-2 User Handbook. ESA Standard Document. https://sentinel.esa.int/documents/247904/685211/Sentinel-2_User_Handbook
-6. Cheval, S. (2024). A systematic review of urban heat island and heat waves. Urban Climate. https://doi.org/10.1016/j.uclim.2024.100020
-7. Snaiki, R. and Merabtine, A. (2025). Recent advances on machine learning techniques for urban heat island applications: A review and new horizons. Sustainable Cities and Society. https://doi.org/10.1016/j.scs.2025.106943
-8. Getis, A. and Ord, J.K. (1992). The Analysis of Spatial Association by Use of Distance Statistics. Geographical Analysis, 24(3), 189-206.
-9. Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32.
+1. Zanaga, D. et al. (2022). ESA WorldCover 10 m 2021 v200. Zenodo. https://doi.org/10.5281/zenodo.7254221  
+
+2. World Health Organization (2016). Urban green spaces and health: A review of evidence. WHO Regional Office for Europe.  
+
+3. Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions. Advances in Neural Information Processing Systems (NeurIPS), 30. https://doi.org/10.48550/arXiv.1705.07874  
+
+4. Rey, S. J., & Anselin, L. (2010). PySAL: A Python library of spatial analytical methods. In M. Fischer & A. Getis (Eds.), Handbook of Applied Spatial Analysis (pp. 175–193). Springer. https://doi.org/10.1007/978-3-642-03647-7_11  
+
+5. European Space Agency (ESA). (2015). Sentinel-2 User Handbook. https://sentinel.esa.int/documents/247904/685211/Sentinel-2_User_Handbook  
+
+6. Cheval, S. (2024). A systematic review of urban heat island and heat waves. Urban Climate. https://doi.org/10.1016/j.uclim.2024.100020  
+
+7. Snaiki, R., & Merabtine, A. (2025). Recent advances on machine learning techniques for urban heat island applications: A review and new horizons. Sustainable Cities and Society. https://doi.org/10.1016/j.scs.2025.106943  
+
+8. Getis, A., & Ord, J. K. (1992). The analysis of spatial association by use of distance statistics. Geographical Analysis, 24(3), 189–206. https://doi.org/10.1111/j.1538-4632.1992.tb00261.x  
+
+9. Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5–32. https://doi.org/10.1023/A:1010933404324  
 
 ---
 
-## Citation
+## 14. Citation
 
 If you use this work in your research, please cite:
 
@@ -459,7 +490,7 @@ If you use this work in your research, please cite:
 
 ---
 
-## License
+## 15. License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
