@@ -1,0 +1,3 @@
+output/dashboard.html linguist-vendored
+output/*.csv linguist-vendored
+output/*.gpkg linguist-vendored
