@@ -415,18 +415,41 @@ The K-Means clustering identifies four typologies that are not just statisticall
 
 ## 11. Policy Implications
 
-**For Urban Planning Departments:**
-The EHEI map and LISA cluster analysis provide neighbourhood-level evidence for prioritizing green infrastructure investment. The 8,617 Low-Low cluster cells represent the highest-priority intervention targets. The typology classification enables differentiated policy: dense urban cores need vertical greening, cool roofs, and permeable surfaces, while peri-urban transition zones need land use controls that preserve existing vegetation before it is converted. The GeoPackage output can be loaded directly into municipal GIS platforms for spatial planning workflows.
+### - For Urban Planning Departments
 
-**For Climate Resilience Planning:**
-The heat stress layer and its relationship to vegetation cover provide a spatial template for urban cooling strategies. Scenario B demonstrates that riparian buffer restoration delivers disproportionate cooling benefit along the Mahanadi corridor, where evaporative cooling from water surfaces compounds with vegetation transpiration. This finding supports integrated water-green infrastructure planning rather than treating the two as separate investment streams.
+The EHEI and LISA cluster analysis provide neighbourhood-level evidence to guide targeted green infrastructure investments. The identified 8,617 Low-Low clusters represent priority zones for immediate intervention.
 
-**For Public Health Governance:**
-The population-weighted analysis shows that 63% of residents (approximately 30.9 million people) live in environmentally poor or very poor conditions. The SHAP analysis confirms that population density is the dominant driver, suggesting that environmental health interventions must be coupled with density management and proportional infrastructure provision. Building more housing without proportional green space creates accelerating, not linear, environmental health decline.
+The typology-based approach enables differentiated planning strategies:
+- **Dense urban cores:** Promote vertical greening, cool roofs, and permeable surfaces
+- **Peri-urban transition zones:** Implement land-use controls to prevent premature loss of vegetation
 
-**For Smart Cities Mission and AMRUT:**
-The scenario comparison provides cost-effectiveness evidence suitable for budget justifications. Scenario C delivers 33 times more population benefit than Scenario A for approximately 6 times the intervention intensity. The non-linear return profile favours ambitious integrated programmes over minimal incremental greening. The interactive dashboard provides the communication vehicle for presenting these findings to non-technical decision-makers.
+All outputs are delivered as GeoPackage layers, allowing seamless integration into municipal GIS systems and existing planning workflows.
 
+
+### - For Climate Resilience Planning
+
+The spatial relationship between heat stress and vegetation highlights actionable cooling pathways. Scenario analysis demonstrates that **riparian buffer restoration along the Mahanadi corridor delivers disproportionately high cooling benefits**, due to the combined effects of evapotranspiration and water-based cooling.
+
+This provides strong evidence for:
+- Integrating **blue-green infrastructure planning**
+- Moving beyond siloed investments in water and vegetation systems
+
+### - For Public Health Governance
+
+Population-weighted analysis indicates that **63% of residents (~30.9 million people)** are exposed to poor or very poor environmental conditions.
+
+SHAP-based insights reveal that **population density is the dominant driver of environmental degradation**. This implies that environmental interventions must be coupled with density management, and infrastructure provisioning must scale proportionally with population growth. Unregulated densification risks triggering non-linear declines in environmental health rather than gradual degradation.
+
+
+### - For Smart Cities Mission and AMRUT
+
+Scenario comparisons provide clear evidence for investment prioritization:
+- **Scenario C delivers ~33x higher population-level benefits** compared to Scenario A
+- At only ~6x the intervention intensity
+
+This highlights a non-linear return on investment, favouring integrated, large-scale interventions over incremental approaches.
+
+The interactive dashboard serves as a decision-support tool, enabling communication of complex spatial insights, evidence-based budget justification, and engagement with non-technical stakeholders.
 ---
 
 ## 12. Limitations and Future Work
